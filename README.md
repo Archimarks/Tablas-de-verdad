@@ -17,4 +17,7 @@ Software development is done with Visual Code, a powerful software development t
 
 Once complete, the software will be uploaded to GitHub, a popular platform for hosting and sharing open source projects. This will allow other developers to access the source code, help improve it, and make contributions to the project. GitHub Pages will also be used to host an online version of the software, allowing users to access and use the tool directly from their web browser without downloading or installing anything. 
 
-Keywords: development, software, truth tables, statements. 
+Keywords: development, software, truth tables, statements.
+
+&copy; 2023. Todos los derechos reservados.
+Marcos Alejandro Collazos Marmolejo & Geraldine Perilla Valderrama. 
