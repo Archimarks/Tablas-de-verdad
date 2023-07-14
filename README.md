@@ -1,5 +1,6 @@
 # Tablas-de-verdad
 https://archimarks.github.io/Tablas-de-verdad/Vistas/Index.html
+
 Resumen 
 
 Se está desarrollando un software en línea para implementar tablas de verdad en enunciados lógicos, ofreciendo una valiosa herramienta de análisis y evaluación de proposiciones. Los usuarios podrán ingresar enunciados y generar automáticamente las tablas de verdad correspondientes, simplificando así el proceso de evaluación y verificación de argumentos.  
