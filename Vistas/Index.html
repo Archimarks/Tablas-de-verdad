@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototipo Trabajo Discretas</title>
+    <link rel="stylesheet" href="../Estilos/Estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h2 style="text-align: center;">Matemáticas Discretas</h2>
+    </header>
+
+    <main>
+        <section id="Info">
+            <h5 style="text-align: center;">
+            <span class="operator">Y : &&</span>
+            <span class="operator"> O : ||</span>
+            <span class="operator">Entonces : -&gt;</span>
+            <span class="operator"> Si y solo si : &lt;=&gt;</span>
+            <span class="operator"> No : !</span></h5>
+        </section>
+
+        <section id="Superior">
+            <textarea id="Textarea" class="textArea" placeholder="Ingrese su enunciado... Si es lenguaje natural termine el texto con ( . ), si es lenguaje simbolico no es necesario." aria-label="Ingrese su enunciado... Si es lenguaje natural termine el texto con ( . ), si es lenguaje simbolico no es necesario." ></textarea>
+        </section>
+
+        <section id="Central">
+            <div class="d-flex justify-content-center">
+                <button id="evaluate-btn" class="btn btn-secondary">Evaluar</button>
+                <div class="vr"></div>
+                <button id="clear-btn" class="btn btn-outline-danger">Limpiar</button>
+            </div>
+        </section>
+
+        <section id="Inferior">
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="Tautología" autocomplete="off" disabled>
+                <label class="btn btn-outline-primary" for="Tautología">Tautología</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="Contradicción" autocomplete="off" disabled>
+                <label class="btn btn-outline-primary" for="Contradicción">Contradicción</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="Contingencia" autocomplete="off" disabled>
+                <label class="btn btn-outline-primary" for="Contingencia">Contingencia</label>
+            </div>
+        </section>
+
+        <section id="Resultado">
+            <textarea id="Textarea1" class="textArea w-100 h-100" placeholder="Conclusión..." aria-label="Conclusión..." disabled></textarea>
+          </section>          
+    </main>
+
+    <footer>
+        <p>&copy; 2023. Todos los derechos reservados.</p>
+        <p>Marcos Alejandro Collazos Marmolejo & Geraldine Perilla Valderrama.</p>
+    </footer>
+
+    <script src="../JavaScript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

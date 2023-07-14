@@ -1,0 +1,141 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    justify-content: center;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 10px;
+    /* Ancho del encabezado vertical */
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+  
+#Info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: none;
+    /* Deshabilita la redimension del textarea */
+}
+
+#Superior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: none;
+    /* Deshabilita la redimension del textarea */
+}
+
+#Central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Inferior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+
+#Input {
+    width: 50%;
+    /* Establece el ancho al 50% */
+    padding: 10px;
+    /* Agrega un relleno interno */
+    font-size: 16px;
+    /* Cambia el tamaño de fuente */
+    border: 2px solid #2b2b2b;
+    /* Agrega un borde */
+    border-radius: 5px;
+    /* Agrega bordes redondeados */
+    outline: none;
+    /* Elimina el resaltado al hacer clic */
+}
+
+/* Estilos generales para los botones */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: #2b2b2b;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.textArea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    resize: none;
+}
+
+.textArea::-ms-expand {
+    background-color: transparent;
+    border: 0;
+}
+
+.textArea:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.textArea::placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.operator {
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+  }
