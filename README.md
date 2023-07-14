@@ -2,7 +2,8 @@
 https://archimarks.github.io/Tablas-de-verdad/Vistas/Index.html
 
 
-![QR Aplicativo Web](https://github.com/Archimarks/Tablas-de-verdad/assets/112360288/d4a2c881-911a-4c64-ba8f-45a2dd974083)
+![QR Aplicativo Web](https://github.com/Archimarks/Tablas-de-verdad/assets/112360288/22d4cf12-7c8f-4f97-a110-b70e4c54ca27)
+
 
 Resumen 
 
