@@ -1,5 +1,6 @@
 # Tablas-de-verdad
 https://archimarks.github.io/Tablas-de-verdad/Vistas/Index.html
+![QR Aplicativo Web](https://github.com/Archimarks/Tablas-de-verdad/assets/112360288/d4a2c881-911a-4c64-ba8f-45a2dd974083)
 
 Resumen 
 
